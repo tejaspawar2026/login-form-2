@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img/bg_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.login-page {
+    background-color: white;
+    max-width: 330px;
+    margin: 70px auto;
+    padding: 50px 20px;
+    border-radius: 4px;
+}
+
+.form {
+    position: relative;
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-header img {
+    width: 80px;
+    padding: 0;
+    margin-top: -44px;
+}
+
+.login-header h3 {
+    padding-top: 2px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.login-header p {
+    padding-bottom: 1px;
+    text-align: start;
+    font-size: 15px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"],
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 6px;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.remember-forgot a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.remember-forgot input[type="checkbox"] {
+    flex: 0 0 auto;
+    margin-right: 1px; 
+}
+
+.remember-forgot label {
+    font-size: 15px;
+}
+
+
+.login-form button {
+    background: rgb(255, 115, 0);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 0px;
+    margin: 20px 0px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 767px) {
+    .login-page {
+        width: 90%;
+        margin: 50px auto;
+    }
+}
